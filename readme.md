@@ -1,12 +1,11 @@
 # Docs
 
-#### supervisorctl
+#### systemctl
 
-    sudo supervisorctl stop all
-    sudo supervisorctl status
+    sudo systemctl stop apache2
+    sudo systemctl start apache2
+    sudo systemctl disable apache2
+    sudo systemctl enable apache2
+    sudo systemctl
 
-commands
 
-    add    exit      open  reload  restart   start   tail   
-    avail  fg        pid   remove  shutdown  status  update 
-    clear  maintail  quit  reread  signal    stop    version
